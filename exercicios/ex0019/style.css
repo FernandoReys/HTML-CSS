@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*lembrando que a tag "id" só pode ser usada uma vez confome a W3c, ai vem a tag "class" que pode ser usada mais de uma vez*/
+
+/*Logo tudo que é id em "HTML" será # em "CSS"*/
+/*Logo tudo que é class em "HTML" será . em "CSS"*/
+
+
+body {
+    background-color:#A2D3AD;
+    /*background-color(indicar a cor da página)*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*(indicar a que a fonte vai ser não serifada)*/
+}
+
+h1 {
+    color: #486D52;
+    /*indicar a cor da fonte do  h1*/
+
+}
+
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+    /*Logo tudo que é id em "HTML" será # em "CSS"*/
+    /*Logo tudo que é class em "HTML" será . em "CSS"*/
+}
+
+h2 {
+    color:#486D52;
+    /*indicar a cor da fonte do  h2*/
+}
+
+.basico {
+    color:#3b6e49
+
+}
+
+.intermediario {
+    color:#8a883c
+
+}
+
+.avancado {
+    color:#6b3c3c
+
+}

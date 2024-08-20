@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedando localmente</h1>
+    <p>Este vídeo está hospedado no meu proprio servidor.</p>
+    <video width="500" controls> <!-- (A tag width é para controlar o tamanho da imagem no site) , (Já a tag controls é pra adicionar um controlador. ex: videos pra dar o play em vídeos e para áudio pra dar play nos áudios) -->
+     <source src="midia/meu- video 2.mp4" type="video/mp4">  
+     <source src="midia/meu-video.mp4" type="video/mp4"> 
+     <source src="midia/meu-video.webm" type="video/webm">
+     <p>Seu navegador não é compativel com esses formatos. <a href="midia/meu- video 2.mp4">Clique aqui para baixar o arquivo mp4</a></p><!--Lembrando que a Tag source sempre tem que ser colocado ordenados.-->
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=_se6XOp7alAFxaaK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

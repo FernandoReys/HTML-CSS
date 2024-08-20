@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(253, 54%, 44%)  ;
+}
+
+.sociais {
+    text-align: center;
+    background-color: #684ac1;
+    color: #ffffff;
+
+}
+
+.quemsoueu {
+    text-align: center;
+    color: white;
+}
+
+.foto {
+    text-align: center;
+
+}
+
+.resumo {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;;
+    text-decoration: solid;
+    text-justify: auto;
+    text-align: justify;
+}
+
+
+.lista {
+    background-color: #8260d6;
+    text-align: center;
+    text-align: justify;
+    color: white;
+}
+
+
+    
+
